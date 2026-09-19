@@ -1,19 +1,22 @@
 using System;
 
-// added at line 48 a safety measure for wrong options
+// Exceeding Requirements:
+// Added safety measure for invalid options at menu.
+// Added custom delimiter (~|~) in file save/load to preserve entries properly.
 
 class Program
 {
     static void Main(string[] args)
     {
-        Prompt prompt = new Prompt();
-        SavedFile file = new SavedFile();
+        Journal journal = new Journal();
+        PromptGenerator promptGenerator = new PromptGenerator();
         string choice = "";
-        
-        Console.WriteLine("Wecolme to the Journal Program!");
-        while (choice != "5"){
-            choice = "";
-            Console.WriteLine("Please select one of the following choices:");
+
+        Console.WriteLine("Welcome to the Journal Program!");
+
+        while (choice != "5")
+        {
+            Console.WriteLine("\nPlease select one of the following choices:");
             Console.WriteLine("1. Write");
             Console.WriteLine("2. Display");
             Console.WriteLine("3. Load");
@@ -25,19 +28,34 @@ class Program
 
             if (choice == "1")
             {
-                prompt.GetPrompts();
-            }    
+                string prompt = promptGenerator.GetRandomPrompts();
+                Console.WriteLine(prompt);
+                Console.Write("> ");
+                string response = Console.ReadLine();
+                string date = DateTime.Now.ToString("dd/MM/yyyy");
+
+                Entry entry = new Entry();
+                entry._date = date;
+                entry._promptText = prompt;
+                entry._entryText = response;
+
+                journal.AddEntry(entry);
+            }
             else if (choice == "2")
             {
-                prompt.DisplayAll();
+                journal.DisplayAll();
             }
             else if (choice == "3")
             {
-                file.LoadFile(prompt);
+                Console.Write("What is the filename? ");
+                string fileName = Console.ReadLine();
+                journal.LoadFromFile(fileName);
             }
             else if (choice == "4")
             {
-                file.SaveFile(prompt);
+                Console.Write("What is the filename? ");
+                string fileName = Console.ReadLine();
+                journal.SaveToFile(fileName);
             }
             else if (choice == "5")
             {
@@ -48,7 +66,5 @@ class Program
                 Console.WriteLine("Incorrect input, please try again");
             }
         }
-
     }
-
 }
