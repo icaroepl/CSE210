@@ -1,21 +1,20 @@
-using System;
-using System.Runtime.CompilerServices;
-
 public class MathAssignment : Assignment
 {
-  private string _textbookSection;
-  private string _problems;
+    private string _textbookSection;
+    private string _problems;
 
-  public void SetTextbookSection(string input)
+    // Notice the syntax here that the MathAssignment constructor has 4 parameters and then
+    // it passes 2 of them directly to the "base" constructor, which is the "Assignment" class constructor.
+    public MathAssignment(string studentName, string topic, string textbookSection, string problems)
+        : base(studentName, topic)
     {
-        _textbookSection = input;
-    } 
-    public void SetProblems(string input)
-    {
-        _problems = input;
+        // Here we set the MathAssignment specific variables
+        _textbookSection = textbookSection;
+        _problems = problems;
     }
+
     public string GetHomeworkList()
     {
-        return ($"{_textbookSection} - {_problems}");
+        return $"Section {_textbookSection} Problems {_problems}";
     }
 }

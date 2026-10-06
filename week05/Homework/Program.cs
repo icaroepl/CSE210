@@ -4,30 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Assignment assignment = new Assignment();
-        assignment.SetName("Samuel Bennett");
-        assignment.SetTopic("Multiplication");
-        string summary1 = assignment.GetSummary();
-        Console.WriteLine($"{summary1}");
+        // Create a base "Assignment" object
+        Assignment a1 = new Assignment("Samuel Bennett", "Multiplication");
+        Console.WriteLine(a1.GetSummary());
 
-        MathAssignment mathAssignment = new MathAssignment();
-        mathAssignment.SetName("Roberto Rodriguez");
-        mathAssignment.SetTopic("Fractions");
-        mathAssignment.SetTextbookSection("Section 7.3");
-        mathAssignment.SetProblems("Problems 8-19");
-        string summary2 = mathAssignment.GetSummary();
-        string homeWorkList = mathAssignment.GetHomeworkList(); 
-        Console.WriteLine($"{summary2}"); 
-        Console.WriteLine($"{homeWorkList}");
+        // Now create the derived class assignments
+        MathAssignment a2 = new MathAssignment("Roberto Rodriguez", "Fractions", "7.3", "8-19");
+        Console.WriteLine(a2.GetSummary());
+        Console.WriteLine(a2.GetHomeworkList());
 
-        WritingAssignment wrtingAssignment = new WritingAssignment();
-        wrtingAssignment.SetName("Mary Waters");
-        wrtingAssignment.SetTopic("European History");
-        wrtingAssignment.SetTitle("The Causes of World War II by Mary Waters");
-        string summary3 = wrtingAssignment.GetSummary();
-        string writingInformation = wrtingAssignment.GetWritingInformation(); 
-        Console.WriteLine($"{summary3}"); 
-        Console.WriteLine($"{writingInformation}");
-
+        WritingAssignment a3 = new WritingAssignment("Mary Waters", "European History", "The Causes of World War II");
+        Console.WriteLine(a3.GetSummary());
+        Console.WriteLine(a3.GetWritingInformation());
     }
 }
