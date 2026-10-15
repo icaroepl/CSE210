@@ -7,12 +7,12 @@ class EternalGoal : Goal
 
     public override void RecordEvent()
     {
-        // Eternal goals are never complete, so we don't change any state here.
+        
     }
 
     public override bool IsComplete()
     {
-        return false; // Eternal goals are never complete.
+        return false; 
     }
 
     public override string GetStringRepresentation()
