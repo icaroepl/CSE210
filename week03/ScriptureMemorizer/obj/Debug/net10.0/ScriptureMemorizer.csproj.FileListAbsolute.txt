@@ -1,0 +1,15 @@
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.AssemblyInfoInputs.cache
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.AssemblyInfo.cs
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.csproj.CoreCompileInputs.cache
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.sourcelink.json
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.exe
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.deps.json
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.runtimeconfig.json
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.dll
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\bin\Debug\net10.0\ScriptureMemorizer.pdb
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.dll
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\refint\ScriptureMemorizer.dll
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.pdb
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ScriptureMemorizer.genruntimeconfig.cache
+C:\Users\icaro\Documents\BYU\CSE210\week03\ScriptureMemorizer\obj\Debug\net10.0\ref\ScriptureMemorizer.dll

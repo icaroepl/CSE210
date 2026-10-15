@@ -1,0 +1,15 @@
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\bin\Debug\net10.0\Resumes.exe
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\bin\Debug\net10.0\Resumes.deps.json
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\bin\Debug\net10.0\Resumes.runtimeconfig.json
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\bin\Debug\net10.0\Resumes.dll
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\bin\Debug\net10.0\Resumes.pdb
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.AssemblyInfoInputs.cache
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.AssemblyInfo.cs
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.csproj.CoreCompileInputs.cache
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.sourcelink.json
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.dll
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\refint\Resumes.dll
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.pdb
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\Resumes.genruntimeconfig.cache
+C:\Users\icaro\Documents\BYU\CSE210\week02\Resumes\obj\Debug\net10.0\ref\Resumes.dll
